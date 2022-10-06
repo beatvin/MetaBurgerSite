@@ -1,0 +1,4 @@
+<template>
+    <h1>About</h1>
+    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis repellat doloribus perspiciatis ea nulla eaque perferendis tempore commodi, ducimus illo rerum asperiores laboriosam sapiente culpa amet inventore explicabo eveniet, magni assumenda illum. Ad ipsum tenetur unde consequatur sequi reiciendis magnam fuga, eum, deleniti, assumenda perferendis optio laborum. Ex omnis culpa vel odio aut obcaecati consectetur? Distinctio perferendis, deleniti fugit culpa non officia impedit aut quos quasi totam sint, enim modi blanditiis consequatur earum nostrum atque magni maiores corrupti delectus sequi? Soluta at quia necessitatibus iste dolorem vel harum perspiciatis officiis. Voluptas enim quae asperiores unde excepturi aspernatur doloremque distinctio praesentium?</span>
+</template>
