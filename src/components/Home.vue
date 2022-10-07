@@ -1,4 +1,14 @@
 <template>
+  <div class="center">
     <h1>Home</h1>
-    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam delectus ipsam ducimus numquam dolorem perspiciatis quam expedita dicta in laudantium soluta corporis temporibus, ad nesciunt rem exercitationem ratione nulla! Debitis voluptatibus ipsa cumque minima placeat vero iure porro, aliquid facilis sed, perferendis tenetur soluta, in quod praesentium esse ut aperiam? Ratione quaerat est consequatur cupiditate porro beatae exercitationem error, dicta provident perferendis veritatis doloremque, ipsa hic ut modi. Rem voluptas doloribus quibusdam commodi repudiandae! Expedita quibusdam, a hic officiis ea eum est corporis nemo voluptates, dolorem natus quae numquam maiores id dolor unde fugit, aut ratione! Eaque vitae, ex et perferendis natus inventore suscipit tempore sint earum, id explicabo voluptate asperiores quos optio voluptatem facilis temporibus rem quaerat libero minus dolore, facere commodi corrupti accusantium? Eos, voluptatem tempore. Nihil repellat dolores assumenda, nisi, sed ut debitis, quas voluptates iusto delectus nemo praesentium cum eos nostrum sint! Assumenda consectetur dignissimos voluptates quae repellendus maxime explicabo, sit, sunt rerum, sed dolores architecto. Libero reiciendis, maiores distinctio minus soluta vitae maxime enim! Dolor nisi officia iusto optio fugit in ipsum placeat ducimus corporis? Nihil non architecto, sit iure doloribus ut repellat est soluta culpa expedita velit totam aspernatur, eos et inventore! Illum, doloremque!</span>
+    <h2>Just a website for MetaBurger. You are welcome!</h2>
+  </div>
 </template>
+
+<style>
+.center {
+
+    text-align: center;
+
+}
+</style>

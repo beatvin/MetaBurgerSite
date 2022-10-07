@@ -3,69 +3,36 @@ import { createStore } from 'vuex';
 const store = createStore({
 
     state(){
-        return{
+        return{       
+            metaBurgerContractAddress:'0xF28a3485DD483a4a427A6536A501e6E89b89eB3C',
+            metaBurgerContractAbi:[
 
-            counter:0,
-            notes:[],
-            metaBurgerOwnerAddress:null,
-            metaBurgerContracrAddress:'0xF28a3485DD483a4a427A6536A501e6E89b89eB3C',
-            metaBurgerPrice:null,
+                'function owner() external view returns(address)',
+                'function god() external view returns(address)',
+                'function price() external view returns(uint256)',
+                'function messageForOwner() external view returns(string)',
+                'function changePrice(uint256 _newPrice) external returns(bool)',
+                ' function getMyMoney() external'
 
+            ]
         }
     },
 
     getters:{
 
-        getCounter(state){
+        getMetaBurgerContractAddress(state){
 
-            return state.counter;
+            return state.metaBurgerContractAddress;
 
         },
-        getNotes(state){
-            return state.notes;
+        getMetaBurgerContractAbi(state){
+
+            return state.metaBurgerContractAbi;
+
         }
 
     },
 
-    mutations:{
-
-        incrementCounter(state){
-
-            state.counter++;
-
-        },
-
-        decrementCounter(state){
-
-            state.counter--;
-
-        },
-        addNote(state,_note){
-
-            state.notes.push(_note);
-
-        }
-
-    },
-    actions:{
-
-        incrementCounter(context){
-
-            context.commit('incrementCounter');
-
-        },
-
-        decrementCounter(context){
-
-            context.commit('decrementCounter');
-
-        },
-        addNote(context,_note){
-            context.commit('addNote',_note);
-            // state.notes.push(_note);
-
-        }
-    }
 })
 
 export default store;
